@@ -1,0 +1,7 @@
+# Tokyo Predictor Roulette Pro
+# No external dependencies required - uses Python standard library only
+
+# For development (optional):
+# pytest>=7.0.0  # Alternative test runner
+# black>=22.0.0  # Code formatter
+# flake8>=4.0.0  # Linter
