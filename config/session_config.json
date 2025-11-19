@@ -1,0 +1,6 @@
+{
+  "inactive_timeout": 1800,
+  "cleanup_interval": 300,
+  "max_sessions_per_user": 5,
+  "enable_auto_cleanup": true
+}
