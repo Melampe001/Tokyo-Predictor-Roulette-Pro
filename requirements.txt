@@ -1,0 +1,6 @@
+# Requirements (ninguna dependencia externa necesaria para Python 3.7+)
+# El sistema usa solo la biblioteca estándar de Python
+
+# Para desarrollo y testing (opcional):
+# pytest>=7.0.0
+# coverage>=6.0
