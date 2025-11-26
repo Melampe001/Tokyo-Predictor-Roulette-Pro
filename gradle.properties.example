@@ -1,0 +1,17 @@
+# Archivo de ejemplo para configuración local de firmas
+# Copiar este archivo a gradle.properties y rellenar con valores reales
+# NUNCA versionar gradle.properties con credenciales reales
+
+# Configuración de firma para release
+RELEASE_KEYSTORE_PATH=../keystores/release.keystore
+RELEASE_KEYSTORE_PASSWORD=tu_password_seguro_aqui
+RELEASE_KEY_ALIAS=tu_alias_aqui
+RELEASE_KEY_PASSWORD=tu_password_de_clave_aqui
+
+# Información de firma
+SIGNING_KEY_NAME=Tu Nombre o Empresa
+SIGNING_ORGANIZATIONAL_UNIT=Desarrollo Android
+SIGNING_ORGANIZATION=Tokyo Predictor Roulette Pro
+SIGNING_CITY=Tu Ciudad
+SIGNING_STATE=Tu Estado/Provincia
+SIGNING_COUNTRY=MX

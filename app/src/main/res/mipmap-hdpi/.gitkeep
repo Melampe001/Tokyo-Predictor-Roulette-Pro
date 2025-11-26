@@ -1,0 +1,11 @@
+# Los íconos de la aplicación (ic_launcher) deben colocarse en estos directorios
+# Por ahora, Android Studio generará íconos predeterminados
+# 
+# Para personalizar los íconos:
+# 1. Usa Android Studio: Right-click on res → New → Image Asset
+# 2. O coloca manualmente los archivos PNG en cada directorio:
+#    - mipmap-mdpi: 48x48px
+#    - mipmap-hdpi: 72x72px
+#    - mipmap-xhdpi: 96x96px
+#    - mipmap-xxhdpi: 144x144px
+#    - mipmap-xxxhdpi: 192x192px

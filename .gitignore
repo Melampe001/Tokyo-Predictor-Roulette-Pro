@@ -1,0 +1,85 @@
+# Android Studio
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Keystores - MUY IMPORTANTE: NO versionar keystores de producción
+*.keystore
+*.jks
+!debug.keystore
+
+# Credenciales - NO versionar
+gradle.properties
+secrets.properties
+
+# APKs y AABs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Logs
+*.log
+
+# Archivos de compilación
+/app/build/
+/app/release/
+/app/debug/
+
+# Directorios de salida
+out/
+bin/
+gen/
+
+# Configuración local del IDE
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/misc.xml
+.idea/deploymentTargetDropDown.xml
+.idea/render.experimental.xml
+
+# Android Profiler
+captures/
+
+# IntelliJ
+*.iml
+*.iws
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# NDK
+obj/
+.externalNativeBuild/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
