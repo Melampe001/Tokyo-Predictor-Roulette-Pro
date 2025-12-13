@@ -30,7 +30,7 @@ gh pr list --repo Melampe001/Tokyo-Predictor-Roulette-Pro --state open --limit 1
 Usando curl:
 
 ```bash
-curl -H "Accept: application/vnd.github.v3+json" \
+curl -H "Accept: application/vnd.github+json" \
   https://api.github.com/repos/Melampe001/Tokyo-Predictor-Roulette-Pro/pulls?state=open&sort=updated&direction=desc&per_page=1
 ```
 

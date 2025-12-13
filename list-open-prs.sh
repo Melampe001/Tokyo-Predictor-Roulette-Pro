@@ -33,8 +33,8 @@ else
     echo "1. Visita: https://github.com/$REPO/pulls"
     echo "2. Instala GitHub CLI: https://cli.github.com/"
     echo "3. Usa la API:"
-    echo "   curl -H 'Accept: application/vnd.github.v3+json' \\"
-    echo "     https://api.github.com/repos/$REPO/pulls?state=open"
+    echo "   curl -H 'Accept: application/vnd.github+json' \\"
+    echo "     'https://api.github.com/repos/$REPO/pulls?state=open'"
 fi
 
 echo ""
