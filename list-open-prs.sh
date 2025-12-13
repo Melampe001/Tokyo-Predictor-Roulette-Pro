@@ -1,7 +1,8 @@
 #!/bin/bash
+set -u
 
-# Script para listar el pull request abierto más reciente
-# Script to list the most recent open pull request
+# Script para listar los pull requests abiertos más recientes
+# Script to list the most recent open pull requests
 
 REPO="Melampe001/Tokyo-Predictor-Roulette-Pro"
 
@@ -15,10 +16,16 @@ echo ""
 if command -v gh &> /dev/null; then
     echo "Usando GitHub CLI (gh)..."
     echo ""
-    gh pr list --repo "$REPO" --state open --limit 5
-    echo ""
-    echo "Para ver más detalles de un PR específico, usa:"
-    echo "  gh pr view <número> --repo $REPO"
+    if gh pr list --repo "$REPO" --state open --limit 5 2>/dev/null; then
+        echo ""
+        echo "Para ver más detalles de un PR específico, usa:"
+        echo "  gh pr view <número> --repo $REPO"
+    else
+        echo "No se pudo acceder a GitHub. Verifica que tengas credenciales configuradas."
+        echo "Ejecuta: gh auth login"
+        echo ""
+        echo "O establece el token GH_TOKEN en tu entorno."
+    fi
 else
     echo "GitHub CLI (gh) no está instalado."
     echo ""

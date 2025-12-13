@@ -16,10 +16,14 @@ Si tienes instalado GitHub CLI, ejecuta:
 gh pr list --repo Melampe001/Tokyo-Predictor-Roulette-Pro --state open --limit 1
 ```
 
-Para ver más detalles del PR más reciente:
+Para ver más detalles de un PR específico:
 
 ```bash
-gh pr view --repo Melampe001/Tokyo-Predictor-Roulette-Pro $(gh pr list --repo Melampe001/Tokyo-Predictor-Roulette-Pro --state open --limit 1 --json number --jq '.[0].number')
+# Ver detalles del primer PR en la lista
+gh pr view --repo Melampe001/Tokyo-Predictor-Roulette-Pro <número-del-pr>
+
+# O listar con formato JSON para procesamiento
+gh pr list --repo Melampe001/Tokyo-Predictor-Roulette-Pro --state open --limit 1 --json number,title,author,updatedAt
 ```
 
 ### Método 3: API de GitHub
