@@ -1,0 +1,209 @@
+################################################################################
+# .gitignore Institucional / Institutional .gitignore
+# Organización / Organization: Melampe001
+# Repositorio / Repository: Tokyo-Predictor-Roulette-Pro
+#
+# Este archivo excluye archivos comunes que no deben versionarse.
+# This file excludes common files that should not be versioned.
+################################################################################
+
+# =============================================================================
+# Archivos de respaldo / Backup files
+# =============================================================================
+*.bak
+*.backup
+*.old
+*.orig
+*~
+*.swp
+*.swo
+
+# =============================================================================
+# Logs y registros / Logs and records
+# =============================================================================
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =============================================================================
+# Archivos de salida y compilados / Output and compiled files
+# =============================================================================
+*.out
+*.output
+*.tmp
+*.temp
+*.cache
+output/
+outputs/
+out/
+tmp/
+temp/
+
+# =============================================================================
+# Binarios y ejecutables / Binaries and executables
+# =============================================================================
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+*.lib
+*.class
+*.jar
+*.war
+*.ear
+*.pyc
+*.pyo
+
+# =============================================================================
+# Directorios de distribución y build / Distribution and build directories
+# =============================================================================
+dist/
+dist-*/
+build/
+builds/
+target/
+bin/
+obj/
+*.egg-info/
+.eggs/
+
+# =============================================================================
+# Dependencias y módulos / Dependencies and modules
+# =============================================================================
+node_modules/
+bower_components/
+jspm_packages/
+vendor/
+.pnp/
+.pnp.js
+
+# =============================================================================
+# Entornos virtuales / Virtual environments
+# =============================================================================
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+virtualenv/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =============================================================================
+# Archivos sensibles y secretos / Sensitive files and secrets
+# =============================================================================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+*.p12
+*.pfx
+*.credentials
+secrets.yml
+secrets.yaml
+secrets.json
+credentials.json
+config/secrets.*
+
+# =============================================================================
+# Cachés de herramientas y frameworks / Tool and framework caches
+# =============================================================================
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.phpunit.result.cache
+coverage/
+*.cover
+*.coveragerc
+
+# =============================================================================
+# IDEs y editores / IDEs and editors
+# =============================================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# =============================================================================
+# Sistema operativo / Operating system
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =============================================================================
+# Archivos temporales de Git / Git temporary files
+# =============================================================================
+*.patch
+*.diff
+*.rej
+.git/
+
+# =============================================================================
+# Archivos de debugging / Debugging files
+# =============================================================================
+*.dmp
+*.stackdump
+core
+core.*
+
+# =============================================================================
+# Otros archivos comunes / Other common files
+# =============================================================================
+*.pid
+*.seed
+*.pid.lock
+.grunt
+.lock-wscript
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+.yarn-integrity
